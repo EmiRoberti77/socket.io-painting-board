@@ -1,4 +1,4 @@
-# Socket.io realtime draw shapes
+# Socket.io realtime drawing shapes
 
 how to create a real-time collaborative drawing application using Socket.IO to manage communication between multiple clients and the server. The application allows users to draw on a canvas, with their actions being instantly relayed to all connected clients, making it possible for multiple users to collaborate in real time.
 
