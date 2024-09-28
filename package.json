@@ -1,0 +1,29 @@
+{
+  "name": "socket.io-paint-board",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "npx nodemon",
+    "build": "npx tsc",
+    "start": "node ./dist/server.js",
+    "build:start": "npm run build && npm run start"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "nodemon": "^3.1.7",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.6.2"
+  },
+  "dependencies": {
+    "@types/cors": "^2.8.17",
+    "@types/express": "^5.0.0",
+    "cors": "^2.8.5",
+    "express": "^4.21.0",
+    "http": "^0.0.1-security",
+    "socket.io": "^4.8.0",
+    "socket.io-client": "^4.8.0"
+  }
+}

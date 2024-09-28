@@ -1,0 +1,74 @@
+body {
+  overflow: hidden;
+  margin: 0px;
+}
+
+#canvas {
+  width: 100%;
+  height: 100%;
+}
+
+#greenButton {
+  background: green;
+  position: absolute;
+  left: 0px;
+  width: 80px;
+  height: 40px;
+}
+
+#blueButton {
+  background: blue;
+  position: absolute;
+  left: 80px;
+  width: 80px;
+  height: 40px;
+}
+
+#redButton {
+  background: red;
+  position: absolute;
+  left: 160px;
+  width: 80px;
+  height: 40px;
+}
+
+#yellowButton {
+  background: yellow;
+  position: absolute;
+  left: 240px;
+  width: 80px;
+  height: 40px;
+}
+
+#orangeButton {
+  background: orange;
+  position: absolute;
+  left: 320px;
+  width: 80px;
+  height: 40px;
+}
+
+#blackButton {
+  background: black;
+  position: absolute;
+  left: 400px;
+  width: 80px;
+  height: 40px;
+}
+
+#whiteButton {
+  background: white;
+  position: absolute;
+  left: 480px;
+  width: 78px;
+  height: 38px;
+  border: 1px solid black;
+}
+
+#resetButton {
+  position: absolute;
+  left: 560px;
+  width: 78px;
+  height: 40px;
+  border-radius: 0;
+}

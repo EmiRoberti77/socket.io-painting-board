@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+  <script src="/socket.io/socket.io.js"></script>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Paint board : Emi Roberti</title>
+  <link rel="stylesheet" href="styles.css" />
+  <body>
+    <canvas
+      id="canvas"
+      width="628"
+      height="400"
+      style="position: absolute; top: 40px; border: 5px solid"
+    >
+    </canvas>
+    <div id="greenButton"></div>
+    <div id="blueButton"></div>
+    <div id="redButton"></div>
+    <div id="yellowButton"></div>
+    <div id="orangeButton"></div>
+    <div id="blackButton"></div>
+    <div id="whiteButton"></div>
+    <input id="resetButton" type="button" value="Reset" />
+    <script src="scripts/scripts.js"></script>
+  </body>
+</html>
